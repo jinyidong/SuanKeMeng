@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace SuanKeMeng.Services
 {
 
-
     public class TopicHandler : ModelEventHandler
     {
         protected override void InitializeComponents()
