@@ -19,4 +19,11 @@ namespace SuanKeMeng.Models
         //发帖数
         public int TopicCount { get; set; }
     }
+
+    public class SectorQuery : AbstractQuery<Sector>
+    {
+        public int? SectorId { get; set; }
+        public int? AccountId { get; set; }
+        public string SectorName { get; set; }
+    }
 }

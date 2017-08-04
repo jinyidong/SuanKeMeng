@@ -4,4 +4,10 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Core.NetCore">
+      <HintPath>\\svn03.suiyi.com.cn\DLL\suiyi_netcore_dll\Core.NetCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

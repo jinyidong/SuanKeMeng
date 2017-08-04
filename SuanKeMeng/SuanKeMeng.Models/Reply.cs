@@ -19,4 +19,13 @@ namespace SuanKeMeng.Models
 
         public int ClickingRate { get; set; }
     }
+
+    public class ReplyQuery : AbstractQuery<Reply>
+    {
+        public int? ReplyId { get; set; }
+        public int? TopicId { get; set; }
+        public int? AccountId { get; set; }
+        public string ReplyText { get; set; }
+        public Range<DateTime> ReplyDateRange { get; set; }
+    }
 }

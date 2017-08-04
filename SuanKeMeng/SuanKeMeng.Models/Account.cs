@@ -14,4 +14,13 @@ namespace SuanKeMeng.Models
 
         public string EMail { get; set; }
     }
+
+    public class AccountQuery : AbstractQuery<Account>
+    {
+        public int? AccountId { get; set; }
+
+        public string NiceName { get; set; }
+
+        public string EMail { get; set; }
+    }
 }

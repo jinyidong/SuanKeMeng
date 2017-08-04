@@ -23,4 +23,13 @@ namespace SuanKeMeng.Models
         public int ClickingRate { get; set; }
 
     }
+
+    public class TopicQuery : AbstractQuery<Topic>
+    {
+        public int? TopicId { get; set; }
+        public int? AccountId { get; set; }
+        public string Title { get; set; }
+        public string TopicText { get; set; }
+        public Range<DateTime> TopicDateRange { get; set; }
+    }
 }
