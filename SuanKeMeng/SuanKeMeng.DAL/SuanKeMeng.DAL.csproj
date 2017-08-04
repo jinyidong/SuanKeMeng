@@ -4,4 +4,14 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SuanKeMeng.Models\SuanKeMeng.Models.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Core">
+      <HintPath>\\svn03.suiyi.com.cn\DLL\suiyi_netcore_dll\Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>
